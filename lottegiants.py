@@ -243,10 +243,10 @@ def open_ticket_website():
 
 def open_official_shop():
     """롯데 자이언츠 온라인 쇼핑몰을 웹 브라우저로 엽니다."""
-    shop_url = "https://www.lotteon.com/p/display/sellㅔer/sellerShop/lottegiants?ch_no=101509&ch_dtl_no=1049592"
+    shop_url = "https://www.lotteon.com/p/display/seller/sellerShop/lottegiants&ch_no=100168&ch_dtl_no=1050966?airbridge_referrer=airbridge%3Dtrue%26client_id%3D3c64f357-f9a0-4cd3-9417-59092d04337e%26event_uuid%3Ddeae5f7a-03ca-45e9-9e12-9bf5014a0cc2%26referrer_timestamp%3D1750003701848%26channel%3Dnaver.searchad%26campaign%3D%257Bcampaign%257D%26tracking_template_id%3De4b3c49150c7da14339dfaa23d44ba72%26ad_group%3Dgrp-a001-01-000000050926240%26ad_creative%3D%257Bad%257D%26content%3D%257Bad_extension%257D%26term%3D%257Bkeyword%257D%26term_id%3Dnkw-a001-01-000007192615113%26sub_id%3D%257Bcampaign_type%257D%26sub_id_1%3D%257Bnetwork%257D%26sub_id_2%3D%257Bmedia%257D%26hash_str%3D%257Bhash_str%257D%26routing_short_id%3Dmkobjp&utm_source=naver.searchad&utm_campaign=%7Bcampaign%7D&utm_medium=%7Bcampaign_type%7D&utm_term=%7Bkeyword%7D&utm_content=%7Bad_extension%7D&ad_creative=%7Bad%7D&ad_group=grp-a001-01-000000050926240&campaign=%7Bcampaign%7D&content=%7Bad_extension%7D&hash_str=%7Bhash_str%7D&match=1&query=%EB%A1%AF%EB%8D%B0%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%83%B5&rank=1&routing_short_id=mkobjp&sub_id=%7Bcampaign_type%7D&sub_id_1=%7Bnetwork%7D&sub_id_2=%7Bmedia%7D&term=%7Bkeyword%7D&term_id=nkw-a001-01-000007192615113&tracking_template_id=e4b3c49150c7da14339dfaa23d44ba72&ad_type=click&keyword_id=nkw-a001-01-000007192615113&NaPm=%7Bnapm%7D&n_campaign=cmp-a001-01-000000009445445"
     print(f"\n[롯데 자이언츠 온라인 쇼핑몰로 이동] {shop_url}")
     webbrowser.open(shop_url)
-
+    
 def open_kbo_streaming():
     """KBO 중계 페이지를 웹 브라우저로 엽니다."""
     streaming_url = "https://www.tving.com/sports/kbo"
